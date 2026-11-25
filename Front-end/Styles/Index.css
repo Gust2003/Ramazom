@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    background-color: antiquewhite;
+}
+
+topper {
+    background-color: brown;
+    border: solid;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 1vw;
+    padding-right: 7vw;
+    height: 5vh;
+
+}
+
+#buttons_menu {}
+
+.button_menu_edition {
+    background-color: darkorange;
+    border-radius: 10px;
+    width: 6vw;
+    height: 4vh;
+}
