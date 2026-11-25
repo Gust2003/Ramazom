@@ -1,14 +1,16 @@
 body {
     display: flex;
+    align-items: center;
     justify-content: center;
+    flex-direction: column;
     margin: 0px;
     background-color: antiquewhite;
 }
 
 topper {
     background-color: brown;
-    border: solid;
-    width: 100%;
+
+    width: 91.2vw;
     align-items: center;
     display: flex;
     flex-direction: row;
@@ -19,11 +21,35 @@ topper {
 
 }
 
-#buttons_menu {}
 
-.button_menu_edition {
+.button_Menu_Edition {
     background-color: darkorange;
     border-radius: 10px;
-    width: 6vw;
+    width: 7vw;
     height: 4vh;
+}
+
+#submit_Buttom_Top_Menu {
+    border-radius: 10px;
+    background-color: darkorange;
+
+}
+
+#product_Box_Container {
+    display: flex;
+    flex-direction: row;
+    width: 80vw;
+    height: 50vh;
+
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1vh;
+}
+
+/* collor just to see what it looks like, i ll change it latter */
+.product_Box {
+    width: 17vw;
+    height: 40vh;
+    background-color: white;
+    margin: 10px;
 }
