@@ -48,6 +48,7 @@ topper {
 
 /* collor just to see what it looks like, i ll change it latter */
 .product_Box {
+    border-radius: 5px;
     width: 17vw;
     height: 40vh;
     background-color: white;
