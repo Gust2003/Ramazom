@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0px;
+    background-color: antiquewhite;
+}
+
+topper {
+    background-color: brown;
+
+    width: 92vw;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 1vw;
+    padding-right: 7vw;
+    height: 5vh;
+
+}
+
+
+.button_Menu_Edition {
+    background-color: darkorange;
+    border-radius: 10px;
+    width: 7vw;
+    height: 4vh;
+}
+
+#login_Container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2vh;
+    background-color: white;
+    height: 80vh;
+    width: 60%;
+}
